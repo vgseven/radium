@@ -1,0 +1,60 @@
+{
+	"$schema": "https://biomejs.dev/schemas/1.8.2/schema.json",
+	"formatter": {
+		"enabled": true,
+		"formatWithErrors": false,
+		"indentStyle": "tab",
+		"indentWidth": 2,
+		"lineEnding": "lf",
+		"lineWidth": 120,
+		"attributePosition": "auto",
+		"ignore": [
+			".vscode",
+			".next",
+			".vercel",
+			".env",
+			".changeset",
+			".husky",
+			"node_modules",
+			"build",
+			"drizzle",
+			".turbo",
+			"dist"
+		]
+	},
+	"javascript": {
+		"formatter": {
+			"jsxQuoteStyle": "double",
+			"quoteProperties": "asNeeded",
+			"trailingCommas": "es5",
+			"semicolons": "always",
+			"arrowParentheses": "always",
+			"bracketSpacing": true,
+			"bracketSameLine": false,
+			"quoteStyle": "double",
+			"attributePosition": "auto"
+		}
+	},
+	"organizeImports": {
+		"enabled": true
+	},
+	"linter": {
+		"enabled": true,
+		"rules": {
+			"recommended": true
+		},
+		"ignore": [
+			".vscode",
+			".next",
+			".vercel",
+			".env",
+			".changeset",
+			".husky",
+			"node_modules",
+			"build",
+			"drizzle",
+			".turbo",
+			"dist"
+		]
+	}
+}
